@@ -21,7 +21,7 @@
 }
 
 header {
-    background-image: url("/assets/images/pawel-czerwinski-fLGtXkQycYY-unsplash.jpg");
+    background-image: url("https://images.unsplash.com/photo-1623593554216-aea20302bac2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -42,6 +42,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     width: 120%;
+    margin-left: 30px;
 }
 
 #signup-title {
@@ -53,14 +54,15 @@ header {
 #form {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 20px;
+    gap: 10px;
     font-family: 'Quicksand', sans-serif;
-    
+    width: 70%;
 }
 
 .input-section {
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 label {
@@ -74,4 +76,16 @@ input {
     border-radius: 6px;
     font-size: 12pt;
     padding: 5px;
+}
+
+.account {
+    display: block;
+    background-color: rgb(45, 45, 60);
+    margin-top: -150px;
+    width: 250px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 14pt;
 }
